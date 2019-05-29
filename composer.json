@@ -1,0 +1,10 @@
+{
+    "name": "awesome-company/awesome-plugin",
+    "description": "Wordpress plugin for AwesomeCompany website, providing awesome functionality.",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "AwesomeCompany\\Plugins\\AwesomePlugin\\": "src"
+        }
+    }
+}
